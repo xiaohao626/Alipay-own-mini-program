@@ -1,0 +1,7 @@
+
+<view>
+  <view>小程序UI组件</view>
+  <view class="mt20"></view>
+  <!-- 时间线 -->
+  <time-line list="{{timeline_mock}}" />
+</view>

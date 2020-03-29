@@ -1,0 +1,15 @@
+<view a:if="list.length" class="timeline">
+  <view class="timeline__wrap">
+    <view a:for="{{list}}" class="timeline__item">
+      <!-- 左侧纵线 -->
+      <view class="timeline__item-tail"></view>
+      <!-- 标记点 -->
+      <view class="timeline__item-node"></view>
+      <!-- 内容区 -->
+      <view class="timeline__item-con">
+        <view class="timeline__item-con-title">{{item[titleAlias]}}</view>
+        <view class="timeline__item-con-date">{{item[dateAlias]}}</view>
+      </view>
+    </view>
+  </view>
+</view>

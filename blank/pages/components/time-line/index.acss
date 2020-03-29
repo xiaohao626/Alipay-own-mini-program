@@ -1,0 +1,40 @@
+.timeline__wrap {
+    padding-left: 20rpx;
+}
+
+.timeline__item {
+    position: relative;
+}
+
+.timeline__item-tail {
+    position: absolute;
+    height: 100%;
+    top: 0;
+    left: 10rpx;
+    width: 1px;
+    border-left: 2rpx solid #e4e7ed;
+}
+
+.timeline__item-node {
+    position: absolute;
+    left: -1rpx;
+    width: 24rpx;
+    height: 24rpx;
+    border-radius: 50%;
+    background: #e4e7ed;
+}
+
+.timeline__item-con {
+    padding: 0 0 40rpx 50rpx;
+}
+
+.timeline__item-con-title {
+    color: #333;
+    font-size: 30rpx;
+}
+
+.timeline__item-con-date {
+    margin-top: 16rpx;
+    color: #999;
+    font-size: 26rpx;
+}
